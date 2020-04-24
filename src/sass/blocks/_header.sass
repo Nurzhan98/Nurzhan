@@ -1,0 +1,65 @@
+.header
+    position: relative
+    background-image: url('../../img/header_bg.png')
+    height: 700px;  
+    width: 100%
+.header::before
+    content: ''
+    display: block
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    background-color: rgba(0, 0, 0, .7)
+    z-index: 5  
+.header-top
+    background-color: rgba(0, 0, 0, .7)
+    position: absolute
+    width: 100%
+    z-index: 10
+.header-top__logo
+    position: absolute
+    top: 0
+    left: 115px    
+.header-top__nav
+    width: 70%
+.header-top__menu-list
+    justify-content: space-between
+.header-top__item
+    display: flex
+    align-items: center
+    height: 70px
+.header-top__link
+    text-transform: uppercase
+    color: #a4a4a4;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    &:hover
+        text-decoration: none
+        color: #fff
+.header-content
+    padding-top: 255px
+    padding-bottom: 213px
+    position: absolute
+    z-index: 5
+    top: 0
+    height: 700px
+    width: 100%
+    text-align: center
+.header-content__text
+    color: #ffffff;
+    font-size: 16px
+    margin-top: 46px
+    margin-bottom: 50px
+
+.features-btn + .free-btn
+    margin-left: 20px
+
+.features-btn
+    background-color: #ff0036;
+.free-btn
+    background-color: #131313;
+                    
+

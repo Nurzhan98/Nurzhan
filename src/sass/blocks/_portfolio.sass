@@ -1,0 +1,47 @@
+.portfolio
+    padding: 99px 0 109px 0
+    background-color: #262626
+.portfolio-head
+    text-align: center
+.portfolio__title
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 27px
+.portfolio__tab-link
+    color: #a4a4a4;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    &:nth-child(-n+3)
+        margin-right: 22px
+    &--active
+        color: #ff0036
+.portfolio__wrapper
+    margin-top: 100px
+    display: flex
+    flex-wrap: wrap
+    img
+        width: 25%
+.portfolio__item
+    display: flex
+    justify-content: center
+    z-index: 5
+.portfolio__item--active
+
+    &::before
+        content: '5'
+        display: block
+        position: absolute
+        z-index: 10
+        top: 0
+        right: 0
+        left: 0
+        bottom: 0
+        background-color: rgba(0,0,0, .9)
+
+
+
+        
