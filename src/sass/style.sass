@@ -18,23 +18,27 @@
     border: none
     font-size: 20px;
     text-transform: uppercase;
+    font-family: Raleway
+    font-weight: 500
 .title
     text-align: center
     line-height: 30px
     font-size: 30px;
+    font-family: Raleway
+    font-weight: bold
     span
-        color: #ff0036;
+        color: $desc_color;
 .title_white
     color: #fff
 .title_black
-    color: #262626
+    color: $dark-title_color
 .title-top
     text-align: center
     padding: 100px 0
 .mr-0
     margin-right: 0
-.ml-17
-    margin-left: 17px
+.ml-15
+    margin-left: 15px
     margin-right: 0
 .mb-44
     margin-bottom: 44px
@@ -47,11 +51,13 @@
 .mb-50
     margin-bottom: 50px
 .subtitle
-    color: #505050;
+    color: $desc_color;
     font-size: 16px;
     line-height: 22px;
+    font-family: Lato
+    font-weight: 700 
     span
-        color: #ff0036;
+        color: $desc_color;
 .subtitle--white
     color: #fff
 .point-line
@@ -156,8 +162,9 @@ ul, li
 @import 'blocks/follow';
 @import 'blocks/fine';
 @import 'blocks/footer';
-@import 'blocks/active';
 @import 'libs/fonts';
+@import 'blocks/active';
+
 
 
 

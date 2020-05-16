@@ -1,4 +1,113 @@
 @font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.eot');
+  src: local('Lato Regular'), local('Lato-Regular'),
+      url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Lato-Regular.woff2') format('woff2'),
+      url('../fonts/Lato-Regular.woff') format('woff'),
+      url('../fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Regular.eot');
+  src: local('Raleway Regular'), local('Raleway-Regular'),
+      url('../fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Raleway-Regular.woff2') format('woff2'),
+      url('../fonts/Raleway-Regular.woff') format('woff'),
+      url('../fonts/Raleway-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-SemiBold.eot');
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'),
+      url('../fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
+      url('../fonts/Raleway-SemiBold.woff') format('woff'),
+      url('../fonts/Raleway-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Bold.eot');
+  src: local('Raleway Bold'), local('Raleway-Bold'),
+      url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Raleway-Bold.woff2') format('woff2'),
+      url('../fonts/Raleway-Bold.woff') format('woff'),
+      url('../fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Medium.eot');
+  src: local('Raleway Medium'), local('Raleway-Medium'),
+      url('../fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Raleway-Medium.woff2') format('woff2'),
+      url('../fonts/Raleway-Medium.woff') format('woff'),
+      url('../fonts/Raleway-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Bold.eot');
+  src: local('Lato Bold'), local('Lato-Bold'),
+      url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Lato-Bold.woff2') format('woff2'),
+      url('../fonts/Lato-Bold.woff') format('woff'),
+      url('../fonts/Lato-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Light.eot');
+  src: local('Lato Light'), local('Lato-Light'),
+      url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Lato-Light.woff2') format('woff2'),
+      url('../fonts/Lato-Light.woff') format('woff'),
+      url('../fonts/Lato-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MgOpen Modata';
+  src: url('../fonts/MgOpenModata.eot');
+  src: local('MgOpen Modata'), local('MgOpenModata'),
+      url('../fonts/MgOpenModata.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/MgOpenModata.woff2') format('woff2'),
+      url('../fonts/MgOpenModata.woff') format('woff'),
+      url('../fonts/MgOpenModata.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: local('Myriad Pro Regular'), local('MyriadPro-Regular'),
+      url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+      url('../fonts/MyriadPro-Regular.woff') format('woff'),
+      url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?z8c3wo');
   src:  url('../fonts/icomoon.eot?z8c3wo#iefix') format('embedded-opentype'),
@@ -13,7 +122,6 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -86,4 +194,7 @@
 }
 .icon-facebook-f:before {
   content: "\e900";
+}
+.icon-user:before {
+  content: "\e971";
 }
